@@ -13,7 +13,7 @@ public class AlarmReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
 
-        showNotification(context, "Time is Up!!!");
+        showNotification(context, "Time is Upg!!!");
     }
 
     private void showNotification(Context context, String message)
